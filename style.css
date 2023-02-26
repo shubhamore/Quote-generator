@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  background-color: rgb(12, 12, 12);
+  min-height: 100%;
+}
+.brand-name {
+  color: blueviolet;
+  text-align: center;
+  padding: 25px;
+  font-size: 35px;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 375px;
+  text-align: center;
+  max-width: 85%;
+}
+.content {
+  position: relative;
+  width: 100%;
+  padding: 40px 30px;
+  border-radius: 10px;
+  background-color: black;
+  color: aliceblue;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#quote {
+  font-size: 20px;
+  padding: 15px 0px;
+}
+#author {
+  font-size: 15px;
+  padding: 10px 0px;
+  color: lightblue;
+}
+#new-quote {
+  padding: 5px 7.5px;
+  border-radius: 7.5px;
+  font-size: 20px;
+  background-color: crimson;
+  color: #000;
+  margin: 10px 0px;
+  cursor: pointer;
+}
